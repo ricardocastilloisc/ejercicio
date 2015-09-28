@@ -8,3 +8,66 @@ p
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10px;
 }
+
+form label,
+form input[type="text"]
+form select
+{
+	font-size:14px;
+}
+input[type="text"]
+{
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+	box-sizing:border-box;
+	height:32px;
+	outline:none;
+	padding:0.5em;
+	width:100%;
+}
+input[type="text"]:focus, select:focus
+{
+	border:1px solid #58AEEC;
+	
+}
+.form-group
+{ 
+	padding-bottom:16px;	
+}
+.form-label
+{
+	font-weight:700;
+	letter-spacing:1px;
+}
+.btn
+{
+	border-radius:4px;
+	box-sizing:border-box;
+	font-size:16px;
+	outline:none;
+	padding:0.5em;
+}
+.btn:hover
+{
+	cursor:pointer;
+}
+.btn-default
+{
+	background-color:#fff;
+	border:1px solid #BDBDBD;	
+}
+.btn-default:active
+{
+	background-color:blue;
+}
+
+.btn-default2
+{
+	background-color:#fff;
+	border:1px solid #BDBDBD;	
+}
+
+.btn-default2:hover
+{
+	background-color:pink;
+}
